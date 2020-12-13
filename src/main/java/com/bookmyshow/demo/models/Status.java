@@ -1,0 +1,9 @@
+package com.bookmyshow.demo.models;
+
+public enum Status {
+    REGISTRATION_INITIATED,
+    REGISTRATION_EXPIRED,
+    REGISTRATION_WAITING_FOR_PAYMENT,
+    REGISTRATION_COMPLETE,
+    REGISTRATION_NOT_FOUND
+}
